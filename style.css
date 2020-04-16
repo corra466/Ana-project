@@ -1,0 +1,66 @@
+/* CSS files add styling rules to your content */
+
+body {
+  padding: 100 px;
+  font-family: 'Lato', sans-serif;
+  margin: 2em; 
+}
+
+a { 
+font-family: 'Baloo Thambi 2', cursive;
+}
+  
+a: hover{
+  text-decoration: underline
+}
+
+h1, h2 {
+  font-style: italic;
+  font-family: 'Baloo Thambi 2', cursive;
+  color: #373fff;
+}
+
+  
+.img {   
+  width: 200px; 
+  height: auto;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+#sp-map {
+  height: 100vh;
+/*   width: 300px; */
+
+}
+
+#sidebar {
+  height: 100vh;
+  flex-basis: 50%;
+  background: #EDE3FF;
+  text-align: center;
+}
+
+/* Trying to translate the legend CSS from the examples but needs more work! */
+
+#sp-map-wrap {
+  position: relative;
+  flex-basis: 50%;
+}
+
+.legend {
+  background: white;
+  margin: 20px;
+  padding: 2px;
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  z-index: 2000;
+  height: 100px;
+  width: 200px;
+  
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+  
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Load Leaflet CSS -->
+    <link href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" rel="stylesheet">
+    
+    <!-- import the webpage's stylesheet -->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2|Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Load Leaflet and Carto libraries -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://libs.cartocdn.com/carto.js/v4.2.0/carto.min.js"></script>
+    
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+  </head>  
+  
+  <body>
+    <!--
+    <h1>Welcome to São Paulo!</h1>
+    
+    <p>
+      I'm your cool new webpage. Made with <a href="https://glitch.com">Glitch</a>!
+    </p>
+    
+    <p>
+        <strong> How is water distributed? </strong>
+    </p>
+    Check out the water distribution in your neighborhood if you are serviced by the <a href="https://thenewschool.carto.com/u/corra466/builder/d1d0ad35-a3a2-4425-99ad-2bd981991554/layers" target="_blank">Cantareira Distribution System</a>
+   <p>
+     This page will introduce you to some definitions:
+    </p>
+    
+    <ul>
+      <li> what is water infrastructure? </li>
+      <li> what is an abduction pipe? </li>
+      <li> what is a water treatment station (ETA)? </li>
+      <li> what is a "estação elevatória"? </li>
+    </ul>
+
+  
+    <p>
+     What district are you from?    <input type = "text"> 
+    </p> 
+    -->
+    
+  
+      
+   <div id="container">
+     <div id="sp-map-wrap">
+        <div id="sp-map"></div>
+<!--         <iframe id="map" frameborder="0" src="https://thenewschool.carto.com/u/corra466/builder/d1d0ad35-a3a2-4425-99ad-2bd981991554/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe> -->
+        <div class="legend">
+           This will be my legend
+        </div>
+     </div>
+     <div id="sidebar">  
+        <h2>
+          Title of my map
+        </h2>
+        <p>
+          this is where information about my map will go
+        </p>
+     </div>
+  </div>
+   
+   
+    <div>
+      <img class="img" id="Pump" src="https://cdn.glitch.com/4923912b-2337-4eae-955a-e6479bbbd263%2FIMG_1125.jpg?v=1583942081239" >
+      <img class="img" id="ETA" src="https://cdn.glitch.com/4923912b-2337-4eae-955a-e6479bbbd263%2FIMG_1136.jpg?v=1583941897192" >
+      <img class="img" id="abduction" src="https://cdn.glitch.com/4923912b-2337-4eae-955a-e6479bbbd263%2FIMG_1110.jpg?v=1583942138337">
+      
+    </div>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
